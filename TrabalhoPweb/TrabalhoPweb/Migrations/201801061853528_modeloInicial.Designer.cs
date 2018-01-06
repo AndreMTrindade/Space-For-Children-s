@@ -7,13 +7,13 @@ namespace TrabalhoPweb.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class ModeloInicial : IMigrationMetadata
+    public sealed partial class modeloInicial : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(ModeloInicial));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(modeloInicial));
         
         string IMigrationMetadata.Id
         {
-            get { return "201801061749018_ModeloInicial"; }
+            get { return "201801061853528_modeloInicial"; }
         }
         
         string IMigrationMetadata.Source

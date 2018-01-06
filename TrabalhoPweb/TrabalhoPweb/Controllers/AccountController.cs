@@ -151,7 +151,7 @@ namespace TrabalhoPweb.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+                var user = new ApplicationUser { UserName = model.Email, Apelido = model.Apelido, Email = model.Email,Telemovel = model.Telemovel, PalavraChave = model.Password };
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
